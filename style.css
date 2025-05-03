@@ -37,11 +37,10 @@ button {
 }
 
 .header {
-    height: 2vh;
     display: flex;
     padding: 15px;
     background-color: rgb(129, 67, 67);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -71,11 +70,11 @@ button {
 
 .section1 {
     padding:8px;
-    height:22vh;
+    height:21vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: green;
+    background-color: rgb(129, 67, 67);
     gap:100px;
 }
 
@@ -98,14 +97,14 @@ button {
 }
 
 .thumbnail {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 150%;
+    max-height: 100%;
 }
 
 .section2 {
     display: flex;
+    height:29vh;
     flex-direction: column;
-    height:27vh;
     background-color: aqua;
     text-align: center;
 }
@@ -119,8 +118,10 @@ button {
 }
 
 .bingo {
-    max-width: 50%;
-    max-height: 50%;
+    border: 3px solid cyan;
+    border-radius: 25px;
+    max-width: 30%;
+    max-height: 30%;
 }
 
 
@@ -135,14 +136,51 @@ button {
 
 .section3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: purple;
-    height:22vh
+    height:20vh
+}
+
+.quote {
+    font-size: 30px;
+    display: flex;
+    gap:8px;
+    flex-direction: column;
+}
+
+.smallerquote {
+    font-weight: bold;
+    font-size:16px;
+    align-self: flex-end;
 }
 
 .section4 {
+    
     display: flex;
+    justify-content: center;
     background-color: yellow;
     height:17vh
+}
+
+.darkblueybutton {
+    color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.signupzone {
+    background:#f63848;
+    display: flex;
+    padding:8px
+
+}
+
+.actiontext {
+    color:white;
+    display: flex;
+    gap:8px;
+    flex-direction: column;
 }
 
 .infotext {
