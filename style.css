@@ -51,7 +51,7 @@ button {
 }
 
 .footer {
-    height:2vh;
+    height:5vh;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@ button {
 
 .section1 {
     padding:8px;
-    height:21vh;
+    height:23vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,7 +103,7 @@ button {
 
 .section2 {
     display: flex;
-    height:29vh;
+    height:25vh;
     flex-direction: column;
     background-color: aqua;
     text-align: center;
@@ -139,7 +139,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: purple;
-    height:20vh
+    height:19vh
 }
 
 .quote {
@@ -156,24 +156,26 @@ button {
 }
 
 .section4 {
-    
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: yellow;
-    height:17vh
+    height:19vh
 }
 
 .darkblueybutton {
-    color: white;
+    font: white;
     border: 5px solid white;
     border-radius: 20px;
 }
 
 .signupzone {
     background:#f63848;
+    justify-content: space-between;
     display: flex;
-    padding:8px
-
+    padding:25px;
+    border-radius: 5px;
+    min-width: 600px;
 }
 
 .actiontext {
@@ -184,7 +186,7 @@ button {
 }
 
 .infotext {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
     color: #1F2937
 }
